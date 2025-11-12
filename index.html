@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #main-div-id {
+        box-sizing: border-box;
+        width: 200px; /* content + padding + border */
+        padding: 20px;
+        border: 5px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main-div-id" class="main-div">Learning Javascript</div>
+    <div id="parent-div" style="border: 1px solid black; padding: 10px">
+      Parent
+      <div id="child-div" style="border: 1px solid black; padding: 10px">
+        Child
+        <button
+          id="child-btn"
+          style="border: 1px solid black; padding: 10px; display: block"
+        >
+          Button
+        </button>
+      </div>
+    </div>
+
+    <ul
+      id="items-list"
+      style="border: 1px solid black; padding: 20px; margin: 20px"
+    >
+      <li class="item" id="item-1">Item 1</li>
+      <li class="item" id="item-2">Item 2</li>
+      <li class="item" id="item-3">Item 3</li>
+      <li class="item" id="item-4">Item 4</li>
+    </ul>
+    <script src="./coding-questions/anagrams.js"></script>
+  </body>
+</html>
